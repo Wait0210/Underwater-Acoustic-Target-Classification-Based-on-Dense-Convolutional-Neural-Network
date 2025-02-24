@@ -1,5 +1,5 @@
- function I = readFcnMatFile(filename)
+ function I = readFcnMatFile(Underwater)
 % Load data and get matrices from the structure
-I = load(filename);
+I = load(Underwater);
 I = I.s;
 
